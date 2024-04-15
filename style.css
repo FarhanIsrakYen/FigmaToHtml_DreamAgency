@@ -1,9 +1,151 @@
 :root {
-  --deep-purple-color: #331B3B;
-  --orange-color: #FEC82833;
-  --light-blue: #ECF7FF;
-  --light-pink: #FFDED44D;
+  --deep-purple-color: #331b3b;
+  --orange-color: #fec82833;
+  --light-blue: #ecf7ff;
+  --light-pink: #ffded44d;
   --black: #000000;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hind Vadodara", sans-serif;
+  width: auto;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 16px 32px;
+  background-color: var(--deep-purple-color);
+  color: #ecf7ff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 23.34px;
+  letter-spacing: 2%;
+  border-radius: 10px;
+}
+
+.header {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: var(--deep-purple-color);
+  align-items: center;
+}
+
+nav .logo {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a {
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.97px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a.active {
+  font-weight: 600;
+}
+
+nav ul li a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50%;
+  height: 3px;
+  background-color: #fdc221;
+}
+
+.social-links {
+  gap: 0px;
+}
+
+.primary-background-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 867.54px;
+  height: 819.82px;
+}
+
+.secondary-background-img {
+  position: absolute;
+  width: 474px;
+  height: 729.17px;
+  top: 112.83px;
+  left: 1046px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.hero-section-img {
+  position: absolute;
+  width: 904px;
+  height: 630.17px;
+  top: 146.83px;
+  left: 846px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.vector-ellipse {
+  position: absolute;
+  width: 581px;
+  height: 498px;
+  top: 202px;
+  left: 853px;
+  border: 2px 0px 0px 0px;
+}
+
+.hero-section .left h1{
+  font-family: "Hind Vadodara";
+  font-size: 87px;
+  font-weight: 10;
+  line-height: 86.83px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.hero-section .left h1 b{
+  font-weight: 700;
+}
+
+.business-border::after {
+  content: "";
+  position: absolute;
+  top: 230px;
+  left: 0;
+  width: 10%;
+  height: 30px;
+  background-color: #fdc221;
 }
 
 footer {
@@ -11,8 +153,96 @@ footer {
   height: 453px;
   top: 3640px;
   border-radius: 0px 158px 0px 0px;
+  text-align: left;
+  color: #ffffff;
 }
 ::placeholder {
   padding-left: 10px;
   color: #ffffff;
+}
+
+.left {
+  position: relative;
+}
+
+footer h2 {
+  position: absolute;
+  left: 60px;
+  margin-top: 60px;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0.01em;
+}
+
+.content {
+  width: 25%;
+}
+
+footer p,
+h4 {
+  position: relative;
+  top: 110px;
+  left: 60px;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.49px;
+  letter-spacing: 0.02em;
+}
+
+input[type="email"] {
+  position: relative;
+  top: 100px;
+  left: 60px;
+  width: 263px;
+  height: 52px;
+  background-color: black;
+  border: 1px solid #ffffff;
+}
+
+footer button {
+  position: relative;
+  top: 101px;
+  left: 50px;
+  width: 143px;
+  height: 56px;
+  border: none;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.49px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.map {
+  position: absolute;
+  right: 80px;
+  margin-top: 80px;
+  margin-right: 120px;
+}
+
+.ellipse {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 43.61px;
+  height: 49.61px;
+  transform: rotate(30.5deg);
+  margin-left: 20px;
+}
+
+.fa {
+  transform: rotate(-30.5deg);
+}
+
+.fa-facebook {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.fa-linkedin,
+.fa-instagram {
+  padding-top: 12px;
+  padding-left: 6px;
 }
