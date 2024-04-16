@@ -124,7 +124,9 @@ nav ul li a.active::after {
   border: 2px 0px 0px 0px;
 }
 
-.hero-section .left h1{
+.hero-section .left h1 {
+  position: relative;
+  top: 60px;
   font-family: "Hind Vadodara";
   font-size: 87px;
   font-weight: 10;
@@ -132,20 +134,223 @@ nav ul li a.active::after {
   letter-spacing: -0.01em;
   text-align: left;
   padding-left: 80px;
+  color: var(--deep-purple-color);
 }
 
-.hero-section .left h1 b{
+.hero-section .left h1 b {
   font-weight: 700;
 }
 
-.business-border::after {
-  content: "";
+.business-border {
   position: absolute;
-  top: 230px;
-  left: 0;
-  width: 10%;
-  height: 30px;
-  background-color: #fdc221;
+  box-shadow: inset 0 -25px 0 #fdc221;
+}
+
+.left p {
+  position: relative;
+  top: 130px;
+  padding-left: 80px;
+}
+
+.left p a {
+  position: relative;
+  top: 30px;
+}
+/* second section */
+.second-section .vector {
+  position: absolute;
+  top: 1202px;
+  left: 1425px;
+}
+
+.second-section .second-section-elements {
+  position: relative;
+  width: 90%;
+  height: 578px;
+  top: 448px;
+  gap: 0px;
+  border-radius: 0px 450px 0px 0px;
+  opacity: 0px;
+  background-color: var(--light-blue);
+}
+
+.second-section-elements h2 {
+  position: relative;
+  top: 60px;
+  font-family: "Hind Vadodara";
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 51.02px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--deep-purple-color);
+}
+
+.second-section-elements span {
+  box-shadow: inset 0 -15px 0 #fdc221;
+}
+
+.button-group button {
+  position: relative;
+  background-color: var(--light-blue);
+  border: 2px solid black;
+  width: 35px;
+  height: 34px;
+  top: 330px;
+  left: 225px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 70%;
+  margin-left: 10px;
+}
+
+.button-group button:disabled {
+  border: 2px solid gray;
+}
+
+.slides .slide-1 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 308px;
+  height: 192px;
+  top: 315px;
+  left: 360px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slides .slide-icon-1 {
+  position: relative;
+  background-color: #ffded4;
+  width: 52px;
+  height: 48px;
+  top: 15px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.slides .slide-icon-1 img {
+  position: relative;
+  background-color: #ffded4;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 0.23px;
+}
+
+.slides h4 {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.97px;
+  letter-spacing: 0.055em;
+}
+
+.slides p {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+  font-family: "Hind Vadodara";
+  width: 280px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.slides .slide-2 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 308px;
+  height: 192px;
+  top: 315px;
+  left: 710px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slides .slide-icon-2 {
+  position: relative;
+  background-color: #ffeed4;
+  width: 52px;
+  height: 48px;
+  top: 15px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.slides .slide-icon-2 img {
+  position: relative;
+  background-color: #ffeed4;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 0.23px;
+}
+
+.slides .slide-3 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 308px;
+  height: 192px;
+  top: 315px;
+  left: 1060px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slides .slide-icon-3 {
+  position: relative;
+  background-color: #d4f0ff;
+  width: 52px;
+  height: 48px;
+  top: 15px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.slides .slide-icon-3 img {
+  position: relative;
+  background-color: #d4f0ff;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 0.23px;
+}
+
+.slides .slide-4 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 308px;
+  height: 192px;
+  top: 315px;
+  left: 1410px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slides .slide-icon-4 {
+  position: relative;
+  background-color: #ffd4d4;
+  width: 52px;
+  height: 48px;
+  top: 15px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.slides .slide-icon-4 img {
+  position: relative;
+  background-color: #ffd4d4;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 0.23px;
 }
 
 footer {
@@ -179,8 +384,18 @@ footer h2 {
   width: 25%;
 }
 
-footer p,
-h4 {
+footer h4 {
+  position: relative;
+  top: 110px;
+  left: 60px;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.49px;
+  letter-spacing: 0.02em;
+}
+
+footer p {
   position: relative;
   top: 110px;
   left: 60px;
@@ -206,7 +421,7 @@ footer button {
   top: 101px;
   left: 50px;
   width: 143px;
-  height: 56px;
+  height: 52px;
   border: none;
   font-family: "Hind Vadodara";
   font-size: 16px;
