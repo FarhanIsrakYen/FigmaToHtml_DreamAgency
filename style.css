@@ -12,10 +12,32 @@
   box-sizing: border-box;
 }
 
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
 body {
   margin: 0;
   font-family: "Hind Vadodara", sans-serif;
   width: auto;
+  padding: 20px;
 }
 
 .btn {
@@ -30,15 +52,9 @@ body {
   border-radius: 10px;
 }
 
-.header {
-  max-width: 95%;
-  margin: 0 auto;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   color: var(--deep-purple-color);
   align-items: center;
 }
@@ -85,58 +101,50 @@ nav ul li a.active::after {
   gap: 0px;
 }
 
-.hero-section {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
+.hero-section .left{
+  margin-left: 40px;
+}
+
+.hero-section .right{
+  float: right;
 }
 
 .primary-background-img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 40%;
-  height: 730px;
+  height: 700px;
+}
+
+.vector-ellipse {
+  position: absolute;
+  height: 498px;
+  width: 581px;
+  top: 20vh;
+  left: 115vb;
 }
 
 .secondary-background-img {
   position: absolute;
-  width: 444px;
-  height: 629.17px;
-  top: 22%;
-  left: 55%;
+  top: 10vh;
+  left: 130vb;
 }
 
 .hero-section-img {
-  position: relative;
-  width: 721px;
-  height: 519.01px;
-  top: 15%;
-  left: 10%;
+  position: absolute;
+  top: 18vh;
+  left: 115vb;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
 
-.vector-ellipse {
-  position: absolute;
-  width: 581px;
-  height: 498px;
-  top: 202px;
-  left: 45%;
-  border: 2px 0px 0px 0px;
-}
-
 .hero-section .left h1 {
-  position: relative;
-  top: 10%;
   font-family: "Hind Vadodara";
   font-size: 87px;
   font-weight: 10;
   line-height: 86.83px;
   letter-spacing: -0.01em;
-  text-align: left;
-  padding-left: 12%;
   color: var(--deep-purple-color);
 }
 
@@ -151,8 +159,7 @@ nav ul li a.active::after {
 
 .left p {
   position: relative;
-  top: 130px;
-  padding-left: 80px;
+  top: 80px;
 }
 
 .left p a {
