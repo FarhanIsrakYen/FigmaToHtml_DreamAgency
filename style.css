@@ -45,7 +45,7 @@ nav {
 
 nav .logo {
   font-family: "Playfair Display";
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28.13px;
 }
 
@@ -85,31 +85,34 @@ nav ul li a.active::after {
   gap: 0px;
 }
 
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
 .primary-background-img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 867.54px;
-  height: 819.82px;
+  width: 40%;
+  height: 730px;
 }
 
 .secondary-background-img {
   position: absolute;
-  width: 474px;
-  height: 729.17px;
-  top: 112.83px;
-  left: 1046px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
+  width: 444px;
+  height: 629.17px;
+  top: 22%;
+  left: 55%;
 }
 
 .hero-section-img {
-  position: absolute;
-  width: 904px;
-  height: 630.17px;
-  top: 146.83px;
-  left: 846px;
+  position: relative;
+  width: 721px;
+  height: 519.01px;
+  top: 15%;
+  left: 10%;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
@@ -120,20 +123,20 @@ nav ul li a.active::after {
   width: 581px;
   height: 498px;
   top: 202px;
-  left: 853px;
+  left: 45%;
   border: 2px 0px 0px 0px;
 }
 
 .hero-section .left h1 {
   position: relative;
-  top: 60px;
+  top: 10%;
   font-family: "Hind Vadodara";
   font-size: 87px;
   font-weight: 10;
   line-height: 86.83px;
   letter-spacing: -0.01em;
   text-align: left;
-  padding-left: 80px;
+  padding-left: 12%;
   color: var(--deep-purple-color);
 }
 
