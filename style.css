@@ -124,17 +124,12 @@ nav ul li a.active::after {
 }
 
 .social-links {
-  align-items: right;
   gap: 0px;
   font-size: 24px;
 }
 
 .hero-section .left {
   margin-left: 40px;
-}
-
-.hero-section .right {
-  float: right;
 }
 
 .primary-background-img {
@@ -144,20 +139,6 @@ nav ul li a.active::after {
   height: 700px;
 }
 
-.vector-ellipse {
-  position: absolute;
-  height: 498px;
-  width: 581px;
-  top: 20vh;
-  left: 115vb;
-}
-
-.secondary-background-img {
-  position: absolute;
-  top: 10vh;
-  left: 130vb;
-}
-
 .hero-section-img {
   position: absolute;
   top: 100px;
@@ -165,6 +146,7 @@ nav ul li a.active::after {
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
+  padding-right: 100px;
 }
 
 .hero-section h1 {
@@ -185,13 +167,13 @@ nav ul li a.active::after {
 }
 
 .left p {
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 430px;
 }
 
 .left p a {
   position: relative;
-  top: 30px;
+  top: 100px;
 }
 /* second section */
 .second-section-elements {
@@ -618,7 +600,7 @@ nav ul li a.active::after {
 
 .fifth-section h2 {
   position: absolute;
-  margin-top: 2700px;
+  margin-top: 2800px;
   left: 700px;
   font-family: "Hind Vadodara";
   font-size: 48px;
