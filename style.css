@@ -371,14 +371,16 @@ nav ul li a.active::after {
 
 .third_section_image {
   position: absolute;
-  top: -150px;
-  left: -800px;
+  top: 850px;
+  margin-left: 40px;
+  width: 659.95px;
+  height: 605.92px;
 }
 
 .third-section-elements h2 {
   position: absolute;
   top: 1000px;
-  left: 1000px;
+  left: 800px;
   width: 338px;
   height: 102px;
   font-family: "Hind Vadodara";
@@ -393,8 +395,8 @@ nav ul li a.active::after {
 .third-section-elements p {
   position: absolute;
   top: 1150px;
-  left: 1000px;
-  width: 600px;
+  left: 800px;
+  width: 500px;
   font-family: "Hind Vadodara";
   font-size: 17px;
   font-weight: 400;
@@ -600,8 +602,8 @@ nav ul li a.active::after {
 
 .fifth-section h2 {
   position: absolute;
-  margin-top: 2800px;
-  left: 700px;
+  top: 3300px;
+  left: 60vb;
   font-family: "Hind Vadodara";
   font-size: 48px;
   font-weight: 300;
@@ -616,7 +618,7 @@ nav ul li a.active::after {
   width: 448px;
   height: 310px;
   top: 3500px;
-  left: 500px;
+  left: 30vb;
   margin-bottom: 30px;
   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
   padding: 30px;
@@ -627,7 +629,7 @@ nav ul li a.active::after {
   width: 448px;
   height: 310px;
   top: 3500px;
-  left: 1000px;
+  left: 110vb;
   margin-bottom: 30px;
   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
   padding: 30px;
