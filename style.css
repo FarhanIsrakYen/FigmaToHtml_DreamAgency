@@ -294,21 +294,22 @@ nav ul li a.active::after {
 
 .third-section {
   position: absolute;
-  top: 750px;
+  top: 1650px;
 }
 
 .third_section_image {
   position: absolute;
-  top: 850px;
-  margin-left: 40px;
+  margin-left: 100px;
   width: 659.95px;
   height: 605.92px;
 }
 
+.third-section-elements {
+  margin-left: 1100px;
+  text-align: left;
+}
+
 .third-section-elements h2 {
-  position: absolute;
-  top: 1000px;
-  left: 800px;
   width: 338px;
   height: 102px;
   font-family: "Hind Vadodara";
@@ -321,20 +322,12 @@ nav ul li a.active::after {
 }
 
 .third-section-elements p {
-  position: absolute;
-  top: 1150px;
-  left: 800px;
   width: 500px;
   font-family: "Hind Vadodara";
   font-size: 17px;
   font-weight: 400;
   line-height: 24.87px;
   letter-spacing: 0.02em;
-}
-
-.third-section-elements a {
-  position: absolute;
-  top: 200px;
 }
 
 .fourth-section {
